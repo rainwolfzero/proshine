@@ -91,8 +91,7 @@ namespace PROBot
             if (Account.Socks.Version != SocksVersion.None)
             {
                 // TODO: Clean this code.
-                client = new GameClient(new GameConnection(server, (int)Account.Socks.Version, Account.Socks.Host, Account.Socks.Port, Account.Socks.Username, Account.Socks.Password),
-                    new MapConnection((int)Account.Socks.Version, Account.Socks.Host, Account.Socks.Port, Account.Socks.Username, Account.Socks.Password));
+               
             }
             else
             {
